@@ -1,0 +1,126 @@
+// this is a js file
+// João Vítor da Silva Rosa
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*
+let condicao1 = true;
+if (condicao1) {
+    //Como o valor da condição é true,
+    //o código desse bloco é executado
+    console.log('Entrei no if 1!');
+}
+
+let condicao2 = false;
+if (condicao2) {
+    //Como o valor da condição é false,
+    //o código desse bloco NÂO é executado
+    console.log('Entrei no if 2!');
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function recebeDoisNumeros(num1, num2) {
+    if ( num1 === num2 ){
+       return "Sucesso";
+    }
+}
+console.log(
+    recebeDoisNumeros(
+        Number(prompt("Digite um numero")),
+        Number(prompt("Digite outro numero"))
+    )
+);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function recebeTexto(Nome, Idade) {
+    if ( Idade >= 18 ) {
+       return Nome + ", você pode dirigir";
+    }
+}
+console.log(
+    recebeTexto(
+        prompt("Digite seu nome"),
+        Number(prompt("Digite sua idade"))
+    )
+);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+let condicao = false
+
+if (condicao) {
+    console.log('Entrei no if!')
+} else {
+       // Como o valor da condição é false,
+       // o código do bloco else será executado
+       console.log('Entrei no else!')
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function recebeDoisNumeros(num1, num2) {
+    if ( num1 !== num2 ){
+       return "Os números são diferentes";
+} else { return "Os números são iguais";
+    
+    }
+
+console.log(
+    recebeDoisNumeros(
+        Number(prompt("Digite um numero")),
+        Number(prompt("Digite outro numero"))
+    )
+);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function recebeDoisNumeros(num1, num2) {  
+    if ( num1 > num2 ){ 
+      return "O primeiro número é maior que o segundo número";
+    }else if(num1 === num2){
+        return "Numero 1 é igual ao segundo"
+    }else{
+        return "Numero 1 é menor que o segundo"
+    }
+}
+console.log(
+        recebeDoisNumeros(
+            Number(prompt("Digite o primeiro numero")),
+        Number(prompt("Digite o segundo numero"))
+    )
+);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+let paisDeOrigem
+switch (paisDeOrigem) {
+    case 'Brasil':
+        console.log('Brasileiro')
+        break
+    case 'EUA':
+        console.log('Norte Americano')
+        break  
+    case 'Inglaterra':
+        console.log('Inglês')
+        break
+    default:
+        console.log('Nacionalidade não encontrada')
+        break
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+let pokémons = prompt("Qual é seu pokémon?");
+switch (pokémons){
+    case 'Bulbasauro':
+        console.log('Planta e veneno')
+        break
+    case 'Charmander':
+        console.log('Fogo')
+        break  
+    case 'Squirtle':
+        console.log('Água')
+        break
+    default:
+        console.log('Tipo de pokémon não encontrado')
+        break      
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function podeEstudarNaFaculdade(ensinoMédio, Idade, cursandoFaculdade) {
+    if (ensinoMédio == "sim" && Idade >= 18 && cursandoFaculdade == "não" ){
+    return "Pode estudar na faculdade";
+    }else{ return "Não pode estudar na faculdade"; }
+}
+console.log(podeEstudarNaFaculdade(Prompt("Concluiu o ensino médio?").toLocaleLowerCase(),
+    Number(prompt("Sua Idade")),
+    prompt("Está cursando outra faculdade?").
+       toLocaleLowerCase(),
+));
+*/
